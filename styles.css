@@ -1,16 +1,24 @@
 header {
-  background-color: rgb(254, 240, 239);
-  margin: auto;
+  background-color: rgb(19, 25, 21);
   height: 500px;
+  width: 100%;
+  margin: auto;
 }
 
-h1, h2 {
+h1{
   color: black;
   margin: auto;
   font-family: 'Lato', sans-serif;
+  font-weight: 300;
 }
 
 #projects {
   width: 100%;
   height: 40vh;
+  margin: auto;
+}
+
+#projects-parent-div {
+  height: 70vh;
+  width: 100%;
 }
