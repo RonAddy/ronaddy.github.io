@@ -4,6 +4,7 @@ header {
   margin: auto;
   display: flex;
   justify-content: center;
+  flex-direction: column;
 }
 
 header h1, h2{
@@ -21,7 +22,7 @@ header h1, h2{
 
 #projects-container h1 {
   color: black;
-  margin: auto;
+  text-align: center;
 }
 
 #projects-parent-div {
