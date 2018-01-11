@@ -6,7 +6,7 @@ header {
   justify-content: center;
 }
 
-h1, h2{
+header h1, h2{
   color: white;
   font-family: 'Lato', sans-serif;
   font-weight: 500;
