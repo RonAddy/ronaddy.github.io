@@ -21,4 +21,11 @@ h1{
 #projects-parent-div {
   height: 70vh;
   width: 100%;
+  border: 1px double black;
+  display: flex;
+}
+
+.projects-baby-div {
+  flex: 1;
+  border: .5px solid rgb(239, 250, 252);
 }
