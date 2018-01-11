@@ -1,9 +1,12 @@
 header {
   background-color: rgb(254, 240, 239);
+  margin: auto;
+  height: 500px;
 }
 
 h1, h2 {
   color: black;
+  margin: auto;
 }
 
 #projects {
