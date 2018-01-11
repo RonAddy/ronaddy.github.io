@@ -2,7 +2,7 @@ header {
   background-color: rgb(19, 25, 21);
   height: 500px;
   width: 100%;
-  margin: auto;
+  margin: 0 auto;
 }
 
 h1, h2{
@@ -14,7 +14,7 @@ h1, h2{
 #projects {
   width: 100%;
   height: 40vh;
-  margin: auto;
+  margin: 0 auto;
 }
 
 #projects-parent-div {
