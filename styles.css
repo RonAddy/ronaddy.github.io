@@ -7,8 +7,8 @@ header {
 h1, h2{
   color: white;
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
-  margin: 0 auto;
+  font-weight: 500;
+  margin: auto;
 }
 
 #projects {
