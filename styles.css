@@ -2,6 +2,8 @@ header {
   background-color: rgb(19, 25, 21);
   height: 500px;
   margin: auto;
+  display: flex;
+  justify-content: center;
 }
 
 h1, h2{
@@ -17,7 +19,7 @@ h1, h2{
   margin: 0 auto;
 }
 
-#projects-container:h1 {
+#projects-container h1 {
   color: black;
   margin: auto;
 }
