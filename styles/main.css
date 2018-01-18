@@ -1,7 +1,12 @@
 body{
+/*
   background-image: url('../img/jack_in.gif');
   background-repeat: no-repeat;
   background-size: cover;
+*/
+
+background-color:rgba(7, 7, 7, 0.91) 
+
 }
 
 #logo_wrapper{
@@ -9,22 +14,44 @@ body{
 	justify-content: center;
 }
 
-.logo_loading {
-	width: 40vw;
-	height: 80vh;
-	border: 1px solid red;
-	background-size: contain;
+.logo {
+/*
+	border: 3px solid white;
+	border-radius: 100%;
+*/
+	background-size: cover;
 	background-repeat: no-repeat;
 	position: absolute;
 }
 
 #main_logo{
 	background-image: url("../img/MAIN_LOGO_.png");
+	width: 550px;
+	height: 620px;
 }
 
 #white_outline{
 	background-image: url("../img/LOGO_white_outline_.png");
+	z-index: 2;
+	width: 550px;
+	height: 620px;
 }
+
+#loading_bar {
+    width: 100%;
+    background-color: white;
+/*     position: absolute; */
+    bottom: 0;
+}
+#loading_progress {
+    width: 1%;
+    height: 30px;
+   background-color: green;
+    text-align: center; /* To center it horizontally (if you want) */
+/*     line-height: 30px; /* To center it vertically */ 
+    color: white; 
+}
+
 /*
 	
 header {
