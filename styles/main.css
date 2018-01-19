@@ -1,12 +1,10 @@
 body{
-/*
-  background-image: url('../img/jack_in.gif');
-  background-repeat: no-repeat;
-  background-size: cover;
-*/
-
-background-color:rgba(7, 7, 7, 0.91) 
-
+	background-image: url("../img/background2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0;
+   padding:0;
+   height:100%;
 }
 
 #logo_wrapper{
@@ -15,10 +13,6 @@ background-color:rgba(7, 7, 7, 0.91)
 }
 
 .logo {
-/*
-	border: 3px solid white;
-	border-radius: 100%;
-*/
 	background-size: cover;
 	background-repeat: no-repeat;
 	position: absolute;
@@ -40,18 +34,43 @@ background-color:rgba(7, 7, 7, 0.91)
 #loading_bar {
     width: 100%;
     background-color: white;
-/*     position: absolute; */
+    position: absolute;
     bottom: 0;
 }
 #loading_progress {
     width: 1%;
     height: 30px;
-   background-color: green;
-    text-align: center; /* To center it horizontally (if you want) */
-/*     line-height: 30px; /* To center it vertically */ 
+    background-color: green;
+    text-align: center; 
     color: white; 
 }
 
+.container{
+	margin-top: 20vh;
+	height: 70vh;
+	width: 90vw;
+	background-color: #F8F9E5; /*#FF7F88*/
+	box-shadow: -5px 4px 18px #323232;
+}
+
+#mini_logo {
+	background-image: url("../img/MAIN_LOGO_.png");
+	background-size: contain;
+	background-color: rgba(14, 14, 14, 0.8);
+	position: fixed;
+	border: 20px solid red;
+}
+ footer {
+	 height: 10%;
+	 background-color: rgba(14, 14, 14, 0.8);
+	 text-align: center;
+	 position: relative;
+	 bottom: 0;
+	 
+ }
+ #profile_pic {
+	 
+ }
 /*
 	
 header {
