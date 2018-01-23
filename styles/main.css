@@ -1,22 +1,20 @@
 /* @media only screen and (min-width: 768px) { */
 
 body {
-  background: url("../img/subway_intro.jpeg") no-repeat;
+  /* background: url("../img/subway_intro.jpeg") no-repeat;
   background-size: 95%;
   background-color: black;
   background-position: center;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5); */
 }
 
-/*  Profile picture, logo, & info) */
-
+/*  Nav (w/ logo) */
 nav {
   height: 6vh;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.99);
   display: flex;
   position: fixed;
-  border-bottom: .25px solid black;
+	z-index: 1000;
 }
 
 nav div {
@@ -31,26 +29,28 @@ nav div:hover {
   animation: jump .75s infinite;
 }
 
+/* Name, info, and animations */
 #landing {
   width: 100vw;
   height: 100vh;
-  /* background: url("../img/subway_intro.jpeg") no-repeat;
+  background: url("../img/subway_intro.jpeg") no-repeat;
   background-size: 90%;
-  background-color: black;
   background-position: center;
-	background-color: rgba(255, 255, 255, 0.5); */
+	background-color: rgba(255, 255, 255, 0.5);
+  background-attachment: fixed;
 }
 
 .jump {
   -moz-animation: jump .65s infinite;
   -webkit-animation: jump .65s infinite;
-  animation: jump .65s infinite;
+  animation: jump 1.05s infinite;
+  animation-delay: 2s;
 }
 
 .show {
   -moz-animation: show 1.25s infinite;
   -webkit-animation: show 1.25s infinite;
-  animation: show 1.25s infinite;
+  animation: show .75s infinite;
   color: gold;
 }
 
@@ -58,12 +58,12 @@ nav div:hover {
   100% {
     transform: translateY(0);
   }
-  60% {
+  /* 60% {
     transform: translateY(-6px);
   }
   40% {
     transform: translateY(-9px);
-  }
+  } */
   20% {
     transform: translateY(-10px);
   }
@@ -71,24 +71,27 @@ nav div:hover {
 
 @keyframes show {
   100% {
-    opacity: 1;
+    opacity: .7;
   }
   80% {
-    opacity: .8;
+    opacity: .5;
   }
   60% {
-    opacity: .6;
+    opacity: .3;
   }
   40% {
-    opacity: .3;
+    opacity: .1;
+  }
+  20% {
+    opacity: .01;
   }
 }
 
-#landing h1, h2 {
+#landing h1, #landing h2 {
   color: white;
   font-family: 'Raleway', sans-serif;
   text-align: center;
-  text-shadow: 6px 4px 14px rgba(255, 255, 255, 0.41);
+  text-shadow: 6px 4px 14px rgba(1, 1, 1, 0.91);
   font-size: 30pt;
 }
 
@@ -96,40 +99,40 @@ nav div:hover {
   padding-top: 140px;
 }
 
-#landing_info {
+#landing div {
   display: flex;
   flex-direction: column;
-  margin-top: 10%;
+  margin-top: 6%;
 }
 
-#landing_info h3 {
+#landing div h3 {
   font-family: 'Titillium Web', sans-serif;
   color: white;
   text-align: center;
-  text-shadow: 6px 4px 14px rgba(255, 255, 255, 0.41);
+  text-shadow: 6px 4px 14px rgba(1, 1, 1, 0.91);
   font-size: 4vh;
-  /* justify-content: center; */
 }
 
+/* scroll below arrow */
 #arrow {
   margin: auto;
-  padding-top: 5vh;
+  padding-top: 2vh;
 }
 
 /* About Me section */
-
 #pic_wrapper {
-  height: 25vh;
-  width: 25vw;
+  height: auto;
+  width: 100%;
 }
 
 #profile_pic {
   border-radius: 50%;
-  border: 1px solid;
+  border: .2px solid;
   height: auto;
-  width: 100%;
-  box-shadow: 6px 4px 14px rgba(255, 255, 255, 0.91);
-  margin-left: 35%;
+  width: 50%;
+  box-shadow: 0px 0px 14px rgba(255, 255, 255, 0.91);
+  margin-left: 15%;
+  margin-bottom: 20px;
 }
 
 footer {
@@ -143,102 +146,55 @@ footer {
 
 }
 
-/*
-
-#logo_header {
-	background: url('../img/MAIN_LOGO_.png') no-repeat;
-	background-size: contain;
-	height: 20%;
-	width: 20%;
-	display: flex;
-	margin: auto;
-	margin-top: 50px;
-	margin-left: 480px;
-	opacity: .4;
+#about {
+	background-color: #FAFAFA;
+   width: 97%;
 }
 
-h1, h2 {
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-family: 'Titillium Web', sans-serif;
-	text-align: center;
-	margin-top: 20px;
-	text-shadow:6px 4px 14px rgba(255, 255, 255, 0.81)
-} */
-
-/*
-.logo {
-	background-size: cover;
-	background-repeat: no-repeat;
-	position: absolute;
+.parent_div {
+  display: flex;
 }
 
-#main_logo{
-	background-image: url("../img/MAIN_LOGO_.png");
-	width: 550px;
-	height: 620px;
+.baby_div {
+  align-self: center;
+	flex: 1;
+  text-align: center;
 }
 
-#white_outline{
-	background-image: url("../img/LOGO_white_outline_.png");
-	z-index: 2;
-	width: 550px;
-	height: 620px;
+.content_headers{
+  text-align: center;
+  font-size: 30pt;
+  color: white;
+  padding-top: 90px;
+  text-shadow: 6px 4px 14px rgba(1, 1, 1, 0.99);
 }
 
-#loading_bar {
-    width: 100%;
-    background-color: white;
-    position: absolute;
-    bottom: 0;
+.off_white_background {
+  background-color: #F8F8F8;
 }
-#loading_progress {
-    width: 1%;
-    height: 30px;
-    background-color: green;
-    text-align: center;
-    color: white;
+.section_divider {
+  height: 30vh;
+  width: 100%;
 }
 
-.container{
-	margin-top: 10vh;
-	height: 50vh;
-	width: 30vw;
-	box-shadow: -5px 4px 18px #323232;
-	border: 7px outset rgba(59, 0, 0, 0.87);
-	border-radius: 1.5%;
-	background-image: url("../img/profile_pic.jpg");
-	background-size: cover;
-	background-repeat: no-repeat;
-	transition: .9s;
+/* skills section */
+#skills {
+  background: url("../img/skills.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
 }
 
-.container:hover {
-	background-image: url("../img/MAIN_LOGO_.png");
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-color: white;
-	transition: .9s;
+#projects {
+  background: url("../img/projects.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
 }
 
-#gradient {
-	background-color: rgba(14, 14, 14, 0.75);
-	height: 200px;
-	width: 100%;
-	margin-top: 25px;
-}
- footer {
-	 height: 10%;
-	 background-color: rgba(14, 14, 14, 0.8);
-	 text-align: center;
-	 position: relative;
-	 bottom: 0;
- }
-
-#main_content {
-	width: 100%;
-	height: 500px;
-	background-color: rgb(1,24,30);
-	margin-top: 30px;
-	box-shadow: -5px 4px 18px #323232;
+#contact {
+  background: url("../img/contact.jpg") no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  opacity: .9;
 }
