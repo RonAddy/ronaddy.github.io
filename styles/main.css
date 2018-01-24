@@ -1,20 +1,13 @@
 /* @media only screen and (min-width: 768px) { */
 
-body {
-  /* background: url("../img/subway_intro.jpeg") no-repeat;
-  background-size: 95%;
-  background-color: black;
-  background-position: center;
-  background-color: rgba(255, 255, 255, 0.5); */
-}
-
 /*  Nav (w/ logo) */
+
 nav {
   height: 6vh;
   width: 100%;
   display: flex;
   position: fixed;
-	z-index: 1000;
+  z-index: 1000;
 }
 
 nav div {
@@ -30,13 +23,14 @@ nav div:hover {
 }
 
 /* Name, info, and animations */
+
 #landing {
   width: 100vw;
   height: 100vh;
   background: url("../img/subway_intro.jpeg") no-repeat;
   background-size: 90%;
   background-position: center;
-	background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   background-attachment: fixed;
 }
 
@@ -54,7 +48,7 @@ nav div:hover {
   color: gold;
 }
 
-.vibrate{
+.vibrate {
   -moz-animation: vibrate .65s infinite;
   -webkit-animation: vibrate .65s infinite;
   animation: vibrate 1.05s infinite;
@@ -95,19 +89,40 @@ nav div:hover {
 }
 
 @keyframes vibrate {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-2deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-2deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-2deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-2deg); }
+  0% {
+    transform: translate(1px, 1px) rotate(0deg);
+  }
+  10% {
+    transform: translate(-1px, -2px) rotate(-2deg);
+  }
+  20% {
+    transform: translate(-3px, 0px) rotate(1deg);
+  }
+  30% {
+    transform: translate(3px, 2px) rotate(0deg);
+  }
+  40% {
+    transform: translate(1px, -1px) rotate(1deg);
+  }
+  50% {
+    transform: translate(-1px, 2px) rotate(-2deg);
+  }
+  60% {
+    transform: translate(-3px, 1px) rotate(0deg);
+  }
+  70% {
+    transform: translate(3px, 1px) rotate(-2deg);
+  }
+  80% {
+    transform: translate(-1px, -1px) rotate(1deg);
+  }
+  90% {
+    transform: translate(1px, 2px) rotate(0deg);
+  }
+  100% {
+    transform: translate(1px, -2px) rotate(-2deg);
+  }
 }
-
 
 #landing h1, #landing h2 {
   color: white;
@@ -136,12 +151,14 @@ nav div:hover {
 }
 
 /* scroll below arrow */
+
 #arrow {
   margin: auto;
   padding-top: 2vh;
 }
 
 /* About Me section */
+
 #pic_wrapper {
   height: auto;
   width: 100%;
@@ -164,13 +181,12 @@ footer {
   text-align: center;
   position: fixed;
   bottom: 0;
-	border-bottom: .25px solid black;
-
+  border-bottom: .25px solid black;
 }
 
 #about {
-	background-color: #FAFAFA;
-   width: 97%;
+  background-color: #FAFAFA;
+  width: 97%;
 }
 
 .parent_div {
@@ -179,11 +195,11 @@ footer {
 
 .baby_div {
   align-self: center;
-	flex: 1;
+  flex: 1;
   text-align: center;
 }
 
-.content_headers{
+.content_headers {
   text-align: center;
   font-size: 30pt;
   color: white;
@@ -194,12 +210,14 @@ footer {
 .off_white_background {
   background-color: #F8F8F8;
 }
+
 .section_divider {
   height: 30vh;
   width: 100%;
 }
 
 /* skills section */
+
 #skills {
   background: url("../img/skills.jpg") no-repeat;
   background-size: cover;
@@ -207,7 +225,7 @@ footer {
   opacity: .9;
 }
 
-#projects {
+#project_section {
   background: url("../img/projects.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -219,4 +237,43 @@ footer {
   background-size: cover;
   background-attachment: fixed;
   opacity: .9;
+}
+
+#projects {
+  background-color: #FAFAFA;
+  width: 92vw;
+  margin: auto;
+}
+
+.project_container {
+  margin-top: 10px;
+}
+
+.project_name {
+  text-align: center;
+}
+
+.project_info {
+  flex: 1;
+  justify-content: space-between;
+  align-self: center;
+}
+
+.project_info_reverse {
+  flex-direction: row-reverse;
+}
+
+.card-text {
+  font-size: 12pt;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.btn {
+  font-size: 14pt;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+.card-title {
+  font-family: 'Titillium Web', sans-serif;
+  font-style: italic;
 }
