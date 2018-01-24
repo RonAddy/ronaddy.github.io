@@ -1,7 +1,6 @@
 /* @media only screen and (min-width: 768px) { */
 
 /*  Nav (w/ logo) */
-
 nav {
   height: 6vh;
   width: 100%;
@@ -241,7 +240,7 @@ footer {
 
 #projects {
   background-color: #FAFAFA;
-  width: 92vw;
+  width: 90vw;
   margin: auto;
 }
 
