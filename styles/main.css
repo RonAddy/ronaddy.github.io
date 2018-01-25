@@ -28,7 +28,7 @@ nav div:hover {
   height: 100vh;
   background: url("../img/subway_intro.jpeg") no-repeat;
   background-size: 90%;
-  background-position: center;
+  background-position: 46% 15%;
   background-color: rgba(255, 255, 255, 0.5);
   background-attachment: fixed;
 }
@@ -58,12 +58,6 @@ nav div:hover {
   100% {
     transform: translateY(0);
   }
-  /* 60% {
-    transform: translateY(-6px);
-  }
-  40% {
-    transform: translateY(-9px);
-  } */
   20% {
     transform: translateY(-10px);
   }
@@ -201,9 +195,10 @@ footer {
 .content_headers {
   text-align: center;
   font-size: 30pt;
-  color: white;
+  color: black;
   padding-top: 90px;
   text-shadow: 6px 4px 14px rgba(1, 1, 1, 0.99);
+  border-bottom: 1px solid black;
 }
 
 .off_white_background {
@@ -212,30 +207,31 @@ footer {
 
 .section_divider {
   height: 30vh;
-  width: 100%;
+  width: 30%;
+  margin: auto;
 }
 
 /* skills section */
 
 #skills {
-  background: url("../img/skills.jpg") no-repeat;
+  /* background: url("../img/skills.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity: .9;
+  opacity: .9; */
 }
 
 #project_section {
-  background: url("../img/projects.jpg") no-repeat;
+  /* background: url("../img/projects.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity: .9;
+  opacity: .9; */
 }
 
 #contact {
-  background: url("../img/contact.jpg") no-repeat;
+  /* background: url("../img/contact.jpg") no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  opacity: .9;
+  opacity: .9; */
 }
 
 #projects {
@@ -275,4 +271,8 @@ footer {
 .card-title {
   font-family: 'Titillium Web', sans-serif;
   font-style: italic;
+}
+
+fa-linkedin-in {
+  color: #0073B9;
 }
