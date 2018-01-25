@@ -28,12 +28,12 @@ console.log("jQuery loaded !")
 // logoAnimate()
 
 //
-function simpleParallax(intensity, element) {
-  $(window).scroll(function() {
-    var scrollTop = $(window).scrollTop();
-    var imgPos = scrollTop / intensity + 'px';
-    element.css('transform', 'translateY(' + imgPos + ')');
-  });
-}
-
-simpleParallax(1.2, $('about'));
+// function simpleParallax(intensity, element) {
+//   $(window).scroll(function() {
+//     var scrollTop = $(window).scrollTop();
+//     var imgPos = scrollTop / intensity + 'px';
+//     element.css('transform', 'translateY(' + imgPos + ')');
+//   });
+// }
+//
+// simpleParallax(1.2, $('about'));
