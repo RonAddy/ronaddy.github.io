@@ -342,7 +342,7 @@ fa-linkedin-in {
 /* mid-screen phones */
 @media all and (min-width:376px) and (max-width: 425px) {
   #landing {
-  /* background-size: cover; */
+  background-size: 50%;
   }
 
   #landing h1, #landing h2{
@@ -360,7 +360,7 @@ fa-linkedin-in {
 /* small screen phones */
 @media all and (min-width:0px) and (max-width: 375px) {
 #landing {
-  /* background-size: c; */
+  background-size: 50%;
 }
 
   #landing h1, #landing h2{
