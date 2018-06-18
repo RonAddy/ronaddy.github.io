@@ -1,4 +1,4 @@
-//*/////////////
+/*/////////////
   Nav (w/ logo) 
  / ///////////*/
 
@@ -139,6 +139,9 @@ LANDING-  Main headers
   padding-top: 140px;
 }
 
+/*//////////////////
+LANDING-Details
+/////////////////*/
 
 #landing div {
   display: flex;
@@ -154,7 +157,10 @@ LANDING-  Main headers
   font-size: 4vh;
 }
 
-/* scroll below arrow */
+
+/*/////////////
+"scroll" arrow 
+/////////////*/
 
 #arrow {
   margin: auto;
