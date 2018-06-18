@@ -315,6 +315,11 @@ fa-linkedin-in {
   #landing {
     background-size: cover;
   }
+#landing h1{
+  padding-top: 40%;
+  box-sizing: content-box;
+  font-size: 3.25em;
+}
 
 }
 
