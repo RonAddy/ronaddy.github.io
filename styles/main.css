@@ -230,14 +230,6 @@ footer {
   margin: auto;
 }
 
-/* skills section */
-
-#skills {
-  /* background: url("../img/skills.jpg") no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  opacity: .9; */
-}
 
 #project_section {
   /* background: url("../img/projects.jpg") no-repeat;
@@ -247,10 +239,11 @@ footer {
 }
 
 #contact {
-  /* background: url("../img/contact.jpg") no-repeat;
-  background-size: cover;
+  background: url("../img/contact.jpg") no-repeat center;
+  background-size: contain;
   background-attachment: fixed;
-  opacity: .9; */
+  opacity: .9;
+
 }
 
 #projects {
