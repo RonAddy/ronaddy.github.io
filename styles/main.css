@@ -132,7 +132,7 @@ LANDING-  Main headers
   font-family: 'Raleway', sans-serif;
   text-align: center;
   text-shadow: 6px 4px 14px rgba(1, 1, 1, 0.91);
-  font-size: 230%;
+  font-size: 4vw;
 }
 
 #landing h1 {
@@ -322,9 +322,8 @@ fa-linkedin-in {
   #landing {
     background-size: cover;
   }
-
   #landing h1, #landing h2{
-    font-size: 1.5em;
+    font-size: 2.25em;
   }
 }
 
@@ -334,6 +333,11 @@ fa-linkedin-in {
   #landing {
   background-size: cover;
   }
+
+  #landing h1, #landing h2{
+    font-size: 2.45em;
+  }
+  
 }
 
 
@@ -344,6 +348,6 @@ fa-linkedin-in {
 }
 
   #landing h1, #landing h2{
-    font-size: 2em;
+    font-size: 2.25em;
   }
 } 
