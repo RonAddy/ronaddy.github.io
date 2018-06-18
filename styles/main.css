@@ -136,7 +136,7 @@ LANDING-  Main headers
 }
 
 #landing h1 {
-  padding-top: 140px;
+  padding-top: 20vh;
 }
 
 /*//////////////////
@@ -164,7 +164,9 @@ LANDING-Details
 
 #arrow {
   margin: auto;
-  padding-top: 2vh;
+  /* padding-top: 2vh; */
+  height: 8vh;
+  width: 1--%;
 }
 
 /* About Me section */
@@ -325,6 +327,10 @@ fa-linkedin-in {
   #landing h1, #landing h2{
     font-size: 2.25em;
   }
+
+  #landing div {
+    margin-top: 15%;
+  }
 }
 
 
@@ -336,6 +342,11 @@ fa-linkedin-in {
 
   #landing h1, #landing h2{
     font-size: 2.45em;
+  }
+
+  #landing div h3 {
+    font-size: 3vh;
+    margin-top: 5%;
   }
   
 }
@@ -349,5 +360,10 @@ fa-linkedin-in {
 
   #landing h1, #landing h2{
     font-size: 2.25em;
+  }
+
+  #landing div h3 {
+    font-size: 3vh;
+    margin-top: 5%;
   }
 } 
