@@ -31,7 +31,7 @@ LANDING-Name, info
   height: 100vh;
   background: url("../img/subway_intro.jpeg") no-repeat;
   background-size: 90%;
-  background-position: 46% 15%;
+  background-position: center;
   background-color: rgba(255, 255, 255, 0.5);
   background-attachment: fixed;
 }
@@ -312,9 +312,9 @@ fa-linkedin-in {
 
 /* tablet-small laptops */
 @media all and (min-width:769px) and (max-width: 1024px) {
-  /* #landing {
+  #landing {
     background-size: cover;
-  } */
+  }
 #landing h1{
   padding-top: 40%;
   box-sizing: content-box;
@@ -326,9 +326,10 @@ fa-linkedin-in {
 
 /* big screen phones-tablets */
 @media all and (min-width:426px) and (max-width: 768px) {
-  /* #landing {
+  #landing {
+    background-attachment: scroll;
     background-size: cover;
-  } */
+  }
   #landing h1, #landing h2{
     font-size: 2.25em;
   }
@@ -341,9 +342,10 @@ fa-linkedin-in {
 
 /* mid-screen phones */
 @media all and (min-width:376px) and (max-width: 425px) {
-  /* #landing {
-  background-size: 50%;
-  } */
+  #landing {
+  background-attachment: scroll;
+  background-size: cover;
+  }
 
   #landing h1, #landing h2{
     font-size: 2.45em;
@@ -359,9 +361,10 @@ fa-linkedin-in {
 
 /* small screen phones */
 @media all and (min-width:0px) and (max-width: 375px) {
-/* #landing {
-  background-size: 50%;
-} */
+#landing {
+  background-attachment: scroll;
+  background-size: cover;
+}
 
   #landing h1, #landing h2{
     font-size: 2.25em;
